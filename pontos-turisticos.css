@@ -1,0 +1,321 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;   
+}
+header{
+    width: 100vw;
+    height: 25vh;
+    background-color: #b31818;
+    border-radius: 0px 0px 15px 15px;
+    position: fixed;
+}
+header h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    float: inline-end;
+    margin-right: 35vw; 
+    margin-top: 7vh;
+    background-color: #b31818;
+}
+#icon1{
+    width: 18vh;
+    margin-top: 3.5vh;
+    margin-left: 2vw;
+}
+#icon2{
+    width: 18vh;
+    margin-top: 3.5vh;
+    float: right;
+    margin-right: 2vw;
+}
+#bandeira-peru{
+    width: 13vw;
+    margin-top: 33vh;
+    margin-left: 3vw;
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    font-size: 2.5vh;
+    transition: 0.4s;
+}
+#pgn{
+    text-decoration: underline;
+}
+nav a:hover{
+    background-color:  rgb(242, 242, 182);
+    color: #b31818;
+    border-radius: 0.5vh;
+    transition: 0.4s;
+    padding: 4px;
+}
+nav{
+    margin-top: -3vh;
+    margin-left: 26vw;
+    transition: 0.4s;
+}
+main{
+    background-color:  rgb(242, 242, 182);
+    width: 100vw;
+    height: 460vh;
+}
+main h1{
+    color: black;
+    float: right;
+    margin-top: 39vh;
+    margin-right: 35vw;
+    font-size: 5vh;
+}
+#guia{
+    width: 6vw;
+    margin-top: 35vh;
+    margin-left: 28vw;
+}
+#section1{
+    margin-top: 20vh;
+    margin-left: 40vw;
+}
+#section1 h2{
+    font-size: 2vw;
+    margin-bottom: 5vh;
+}
+#section1 p{
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+#section1 img{
+    width: 20vw;
+    float: left;
+    margin-left: -25vw;
+    border-radius: 2vh;
+    margin-top: -25vh;
+    height: 28vh;
+}
+#section2{
+    margin-top: 28vh;
+    margin-left: 40vw;
+}
+#section2 h2{
+    font-size: 2vw;
+    margin-bottom: 5vh;
+}
+#section2 p{
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+#section2 img{
+    width: 20vw;
+    float: left;
+    margin-left: -25vw;
+    border-radius: 2vh;
+    margin-top: -25vh;
+    height: 28vh;
+}
+#section3{
+    margin-top: 28vh;
+    margin-left: 40vw;
+}
+#section3 h2{
+    font-size: 2vw;
+    margin-bottom: 5vh;
+}
+#section3 p{
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+#section3 img{
+    width: 20vw;
+    float: left;
+    margin-left: -25vw;
+    border-radius: 2vh;
+    margin-top: -25vh;
+    height: 28vh;
+}
+#section4{
+    margin-top: 28vh;
+    margin-left: 40vw;
+}
+#section4 h2{
+    font-size: 2vw;
+    margin-bottom: 5vh;
+}
+#section4 p{
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+#section4 img{
+    width: 20vw;
+    float: left;
+    margin-left: -25vw;
+    border-radius: 2vh;
+    margin-top: -25vh;
+    height: 28vh;
+}
+#section5{
+    margin-top: 28vh;
+    margin-left: 40vw;
+}
+#section5 h2{
+    font-size: 2vw;
+    margin-bottom: 5vh;
+}
+#section5 p{
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+#section5 img{
+    width: 20vw;
+    float: left;
+    margin-left: -25vw;
+    border-radius: 2vh;
+    margin-top: -25vh;
+    height: 28vh;
+}
+#section6{
+    margin-top: 28vh;
+    margin-left: 40vw;
+}
+#section6 h2{
+    font-size: 2vw;
+    margin-bottom: 5vh;
+}
+#section6 p{
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+#section6 img{
+    width: 20vw;
+    float: left;
+    margin-left: -25vw;
+    border-radius: 2vh;
+    margin-top: -25vh;
+    height: 28vh;
+}
+#section7{
+    margin-top: 28vh;
+    margin-left: 40vw;
+}
+#section7 h2{
+    font-size: 2vw;
+    margin-bottom: 5vh;
+}
+#section7 p{
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+#section7 img{
+    width: 20vw;
+    float: left;
+    margin-left: -25vw;
+    border-radius: 2vh;
+    margin-top: -25vh;
+    height: 28vh;
+}
+#section8{
+    margin-top: 28vh;
+    margin-left: 40vw;
+}
+#section8 h2{
+    font-size: 2vw;
+    margin-bottom: 5vh;
+}
+#section8 p{
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+#section8 img{
+    width: 20vw;
+    float: left;
+    margin-left: -25vw;
+    border-radius: 2vh;
+    margin-top: -25vh;
+    height: 28vh;
+}
+footer{
+    background-color: black;
+    width: 99vw;
+    height: 40vh;
+    margin-top: vh;
+}
+#creditos{
+    color: white;
+    margin-left: 10vw;
+    margin-top: 9vh;
+    float: left;
+}
+#laura{
+    color: white;
+    margin-left: 18vw;
+    margin-top: 9vh;
+    float: left;
+}
+#gabi{
+    color: white;
+    float: left;
+    margin-left: -6.8vw;
+    margin-top: 16vh;
+}
+#beta{
+    color: white;
+    float: left;
+    margin-left: -7.3vw;
+    margin-top: 23vh;
+}
+#matheus{
+    color: white;
+    float: left;
+    margin-left: -7.9vw;
+    margin-top: 30vh;
+}
+#insta-laura img{
+    width: 2vh;
+    float: right;
+    margin-right: 37vw;
+    margin-top: 8.8vh;
+}
+#cod-laura{
+    float: right;
+    color: white;
+    margin-right: -9vw;
+    margin-top: 8.4vh;
+}
+#insta-gabi img{
+    width: 2vh;
+    float: right;
+    margin-right: 37vw;
+    margin-top: 5vh;
+}
+#cod-gabi{
+    float: right;
+    color: white;
+    margin-right: -8.8vw;
+    margin-top: 4.6vh;
+}
+#insta-beta img{
+    width: 2vh;
+    float: right;
+    margin-right: 37vw;
+    margin-top: 5vh;
+}
+#cod-beta{
+    float: right;
+    color: white;
+    margin-right: -9.8vw;
+    margin-top: 4.6vh;
+}
+#insta-matheus img{
+    width: 2vh;
+    float: right;
+    margin-right: 37vw;
+    margin-top: 5vh;
+}
+#cod-matheus{
+    float: right;
+    color: white;
+    margin-right: -10.9vw;
+    margin-top: 4.6vh;
+}

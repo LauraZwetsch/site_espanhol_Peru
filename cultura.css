@@ -1,0 +1,338 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;   
+}
+header{
+    width: 100vw;
+    height: 25vh;
+    background-color: #b31818;
+    border-radius: 0px 0px 15px 15px;
+    position: fixed;
+}
+header h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    float: inline-end;
+    margin-right: 35vw; 
+    margin-top: 7vh;
+    background-color: #b31818;
+}
+#icon1{
+    width: 18vh;
+    margin-top: 3.5vh;
+    margin-left: 2vw;
+}
+#icon2{
+    width: 18vh;
+    margin-top: 3.5vh;
+    float: right;
+    margin-right: 2vw;
+}
+#bandeira-peru{
+    width: 13vw;
+    margin-top: 33vh;
+    margin-left: 3vw;
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    font-size: 2.5vh;
+    transition: 0.4s;
+
+}
+#pgn{
+    text-decoration: underline;
+}
+nav a:hover{
+    background-color:  rgb(242, 242, 182);
+    color: #b31818;
+    border-radius: 0.5vh;
+    transition: 0.4s;
+    padding: 4px;
+}
+nav{
+    margin-top: -3vh;
+    margin-left: 26vw;
+    transition: 0.4s;
+}
+main h1{
+    color: black;
+    float: right;
+    margin-top: 39vh;
+    margin-right: 35vw;
+    font-size: 5vh;
+}
+main{
+    background-color:  rgb(242, 242, 182);
+    width: 100vw;
+    height: 410vh;
+}
+#ponto-loc{
+    width: 11vh;
+    float: left;
+    margin-top: 36vh;
+    margin-left: 33vw;
+}
+#p1{
+    width: 40vw;
+    font-size: 2.5vh;
+    background-color: #b31818;
+    display: inline-block;
+    margin-left: -18vw;
+    margin-top: 15vh;
+    color:  rgb(242, 242, 182);
+    padding: 2vh;
+}
+#section1 img{
+    width: 20vh;
+    float: left;
+    margin-left: -33vw;
+    margin-top: 13vh;
+}
+#section2 p{
+    float: right;
+    font-size: 2.5vh;
+    width: 40vw;
+    margin-top: 22vh;
+    margin-right: -39vw;
+    background-color: #b31818;
+    padding: 2vh;
+    color: rgb(242, 242, 182);
+}
+#section2 h2{
+    float: right;
+    margin-right: 35vw;
+    margin-top: 15vh;
+    font-size: 2vw;
+}
+#section2 img{
+    margin-top: 18vh;
+    width: 10vw;
+    margin-left: 36vw;
+}
+#section2{
+    margin-top: 8vh;
+}
+#section3 h2{
+    float: left;
+    margin-top: 10vh;
+    margin-left: 25vw;
+    font-size: 2vw;
+}
+#section3 p{
+    font-size: 2.5vh;
+    width: 40vw;
+    background-color: #b31818;
+    color: rgb(242, 242, 182);
+    padding: 2vh;
+    float: left;
+    margin-top: 17vh;
+    margin-left: -14.5vw;
+}
+#section3 img{
+    width: 9vw;
+    float: left;
+    margin-left: -56vw;
+    margin-top: 10vh;
+}
+#section3{
+    margin-top: 8vh;
+}
+#section4 h2{
+    font-size: 2vw;
+    float: right;
+    margin-top: 26vh;
+    margin-right: 29vw;
+}
+#section4 p{
+    font-size: 2.5vh;
+    width: 40vw;
+    background-color: #b31818;
+    color: rgb(242, 242, 182);
+    padding: 2vh;
+    float: right;
+    margin-top: 33vh;
+    margin-right: -39vw;
+}
+#section4 img{
+    width: 9vw;
+    float: right;
+    margin-top: 30vh;
+    margin-right: 5vw;
+}
+#section5 h2{
+    font-size: 2vw;
+    float: left;
+    margin-top: 72vh;
+    margin-left: 25vw;
+}
+#section5 p{
+    font-size: 2.5vh;
+    width: 40vw;
+    background-color: #b31818;
+    color: rgb(242, 242, 182);
+    padding: 2vh;
+    float: left;
+    margin-top: 30vh;
+    margin-left: -15vw;
+}
+#section5 img{
+    width: 9vw;
+    float: left;
+    margin-left: -56vw;
+    margin-top: 24vh;
+}
+#section6 h2{
+    font-size: 2vw;
+    float: right;
+    margin-top: 25vh;
+    margin-right: 36vw;
+}
+#section6 p{
+    font-size: 2.5vh;
+    width: 40vw;
+    background-color: #b31818;
+    padding: 2vh;
+    float: right;
+    color: rgb(242, 242, 182);
+    margin-top: 32vh;
+    margin-right: -39vw;
+}
+#section6 img{
+    width: 9vw;
+    float: right;
+    margin-top: 26vh;
+    margin-right: 5vw;
+}
+#section7 h2{
+    float: left;
+    font-size: 2vw;
+    margin-top: 70vh;
+    margin-left: 25vw;
+}
+#section7 p{
+    font-size: 2.5vh;
+    width: 40vw;
+    background-color: #b31818;
+    padding: 2vh;
+    float: left;
+    color: rgb(242, 242, 182);
+    margin-top: 32vh;
+    margin-left: -12vw;
+}
+#section7 img{
+    width: 9vw;
+    float: left;
+    margin-left: -57vw;
+    margin-top: 25vh;
+}
+#section8 h2{
+    font-size: 2vw;
+    float: right;
+    margin-top: 25vh;
+    margin-right: 24vw;
+}
+#section8 p{
+    font-size: 2.5vh;
+    width: 40vw;
+    background-color: #b31818;
+    padding: 2vh;
+    float: right;
+    color: rgb(242, 242, 182);
+    margin-top: 33vh;
+    margin-right: -39vw;
+}
+#section8 img{
+    width: 9vw;
+    float: right;
+    margin-right: 5vw;
+    margin-top: 27vh;
+}
+footer{
+    background-color: black;
+    width: 99vw;
+    height: 40vh;
+    margin-top: vh;
+}
+#creditos{
+    color: white;
+    margin-left: 10vw;
+    margin-top: 9vh;
+    float: left;
+}
+#laura{
+    color: white;
+    margin-left: 18vw;
+    margin-top: 9vh;
+    float: left;
+}
+#gabi{
+    color: white;
+    float: left;
+    margin-left: -6.8vw;
+    margin-top: 16vh;
+}
+#beta{
+    color: white;
+    float: left;
+    margin-left: -7.3vw;
+    margin-top: 23vh;
+}
+#matheus{
+    color: white;
+    float: left;
+    margin-left: -7.9vw;
+    margin-top: 30vh;
+}
+#insta-laura img{
+    width: 2vh;
+    float: right;
+    margin-right: 37vw;
+    margin-top: 8.8vh;
+}
+#cod-laura{
+    float: right;
+    color: white;
+    margin-right: -9vw;
+    margin-top: 8.4vh;
+}
+#insta-gabi img{
+    width: 2vh;
+    float: right;
+    margin-right: 37vw;
+    margin-top: 5vh;
+}
+#cod-gabi{
+    float: right;
+    color: white;
+    margin-right: -8.8vw;
+    margin-top: 4.6vh;
+}
+#insta-beta img{
+    width: 2vh;
+    float: right;
+    margin-right: 37vw;
+    margin-top: 5vh;
+}
+#cod-beta{
+    float: right;
+    color: white;
+    margin-right: -9.8vw;
+    margin-top: 4.6vh;
+}
+#insta-matheus img{
+    width: 2vh;
+    float: right;
+    margin-right: 37vw;
+    margin-top: 5vh;
+}
+#cod-matheus{
+    float: right;
+    color: white;
+    margin-right: -10.9vw;
+    margin-top: 4.6vh;
+}
